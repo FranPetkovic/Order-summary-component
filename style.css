@@ -55,6 +55,7 @@ h1{
     padding: 15px 25px;
     border-radius: 10px;
     margin: 20px;
+    background-color: var(--svjetloPlava);
 }
 .main-div1 *{
     margin: 0;
