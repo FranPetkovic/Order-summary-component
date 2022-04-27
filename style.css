@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root{
+    --svjetloPlava:hsl(225, 100%, 94%);
+    --svjetloPlava2:hsl(245, 75%, 52%);
+    --jakoSvjetloPlava:hsl(225, 100%, 98%);
+    --plava:hsl(224, 23%, 55%);
+    --tamnoPlava:hsl(223, 47%, 23%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--svjetloPlava);
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 20px;
+}
+main{
+    max-width: 400px;
+    border-radius: 20px;
+    background-color: var(--jakoSvjetloPlava);
+    text-align: center;
+}
+main>img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+h1{
+    margin: 25px;
+    color: var(--tamnoPlava);
+}
+.div1{
+    width: 100%;
+    padding: 20px;
+}
+.main-div1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--jakoSvjetloPlava);
+    margin: 0 auto;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.main-div1 *{
+    margin: 0;
+    padding: 0;
+}
+.main-div1 p{
+    color: var(--plava);
+}
+.main-div1 h2{
+    font-size: 16px;
+    font-weight: 900;
+}
+.main-div1 a{
+    color: var(--svjetloPlava2);
+}
+.main-div1 a:hover{
+    color:hsl(245, 62%, 60%);
+}
+.main-div1-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+button{
+    width: 100%;
+    border: none;
+    background-color: var(--svjetloPlava2);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+button:hover{
+    background-color:hsl(245, 62%, 60%);
+}
+.div1>a{
+    margin: 20px;
+    text-decoration: none;
+    color: var(--plava);
+}
+.div1>a:hover{
+    color: darkblue;
+}
